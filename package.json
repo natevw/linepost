@@ -1,0 +1,30 @@
+{
+  "name": "linepost",
+  "version": "1.0.0",
+  "description": "Reads stdin and posts each line to the provided URL (preferrably CouchDB but who am I to judge)",
+  "bin": {
+    "linepost": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:natevw/linepost.git"
+  },
+  "keywords": [
+    "unix",
+    "stdin",
+    "couchdb",
+    "upload"
+  ],
+  "author": "Nathan Vander Wilt",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/natevw/linepost/issues"
+  },
+  "dependencies": {
+    "fermata": "~0.9.7",
+    "line-stream": "0.0.3"
+  }
+}
